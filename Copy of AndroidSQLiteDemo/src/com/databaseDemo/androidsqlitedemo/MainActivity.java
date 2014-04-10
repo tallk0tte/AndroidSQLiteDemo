@@ -40,7 +40,7 @@ public class MainActivity extends ActionBarActivity {
 			handler = new DataHandler(getBaseContext());
 			handler.open();
 			long id = handler.insertData(getName, getEmail);
-			Toast.makeText(getBaseContext(), "Data inserted", Toast.LENGTH_LONG).show();
+			Toast.makeText(getBaseContext(), "Data inserted :)", Toast.LENGTH_LONG).show();
 			handler.close();
 			
 		}//end onClick v
